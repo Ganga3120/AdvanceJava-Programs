@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration form</title>
+</head>
+<body bgcolor="pink">
+<form method="get" action="./RegisterServlet">
+  <label>User Name</label>
+  <input type="text" name="username"/required>
+   <br><br>
+  <label>Password</label>
+   <input type="Password"  name="password"/required>
+   <br><br>
+   <label>Mobile No</label>
+   <input type="number" name="mobile"/>
+   <br><br>
+      <label>Email id</label>
+         <input type="email" name="email"/>
+             <br><br>
+           <label>Gender</label>
+         <input type="radio" name="gender"  value="male"/>male
+          <input type="radio" name="gender"  value="female"/>female
+             <br><br>
+           <label>Dob</label>
+         <input type="date" name="dob" required/>
+             <br><br>
+              <label>Qualification</label>
+         <input type="checkbox" name="qualification" value="BSC"/>BSC
+                  <input type="checkbox" name="qualification"  value="BCOM"/>BCOM
+                  <input type="checkbox" name="qualification" value="B.TECH"/>B.TECH
+             <br><br>
+                        <label>Country</label>
+                        <select name="country">
+                        <option>INDIA</option>
+                           <option>USA</option>
+                                  <option>UK</option>
+                        </select>
+                              <br><br>
+                 <label>languages</label>
+                        <select name="languages">
+                        <option>TELUGU</option>
+                           <option>HINDI</option>
+                                  <option>ENGLISH</option>
+                        </select>
+                              <br><br>
+                 <label>COMMENTS ABOUT RATAN SIR</label>
+                   <textarea name="comments" rows="4" cols="25">
+                   </textarea>
+                                    <br><br>
+                        <input type="submit" name="Register"/>
+      
+           
+</form>
+
+</body>
+</html>
